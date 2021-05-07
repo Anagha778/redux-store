@@ -1,33 +1,64 @@
-This is a portfolio application develped using ```React```.
+# Redux shopping store
 
-#### Getting Started with Create React App
+## Description
+This is a online shopping store build using MERN SPA, built using GraphQL API with Apollo Server. The app is built using the ```MERN stack```, with a ```React front end```, ```MongoDB database```, and ```Node.js/Express.js``` server and ```Grapgql API```. ```Redux``` is used to store global state of the store. ```Stripe``` library is used to test payments.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* Application allows users to add products in cart and make payment.  
+* Users are able to create an account when providing user name, email and password.  
+* Logged in users will be able to add items to cart, delete item from cart and make payment for items in the cart.  
 
-#### Available Scripts
+## Deployed application
 
-In the project directory, you can run:
+https://tranquil-escarpment-13333.herokuapp.com/
 
-##### `npm start`
+## User story
+```
+AS a senior engineer working on an e-commerce platform  
+I WANT my platform to use Redux to manage global state instead of the Context API  
+SO THAT my website's state management is taken out of the React ecosystem  
+```
+## Acceptance Crieteria
+```
+GIVEN an e-commerce platform that uses Redux to manage global state  
+WHEN I review the app’s store  
+THEN I find that the app uses a Redux store instead of the Context API  
+WHEN I review the way the React front end accesses the store  
+THEN I find that the app uses a Redux provider  
+WHEN I review the way the app determines changes to its global state  
+THEN I find that the app passes reducers to a Redux store instead of using the Context API  
+WHEN I review the way the app extracts state data from the store  
+THEN I find that the app uses Redux instead of the Context API  
+WHEN I review the way the app dispatches actions  
+THEN I find that the app uses Redux instead of the Context API  
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Mock up
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+###### SignUp
 
-##### `npm run build`
+<div>
+    <img src="./images/1.gif" width="500px"/> 
+</div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+###### Add and Remove product from cart
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<div>
+    <img src="./images/2.gif" width="500px"/> 
+</div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+###### Checkout items
 
-##### Learn More
+<div>
+    <img src="./images/3.gif" width="500px"/> 
+</div>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Built With
+* HTML
+* CSS
+* JavaScript
+* MongoDB
+* Express js
+* Node js
+* React js
+* React-redux
+* Redux
