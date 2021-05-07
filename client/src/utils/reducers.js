@@ -100,3 +100,5 @@ import {
     return useReducer(reducer, initialState);
   }
   */
+
+  export default reducers;
