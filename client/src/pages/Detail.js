@@ -20,8 +20,11 @@ import {
 
 function Detail() {
   //const [state, dispatch] = useStoreContext();
-
+  
+  //returns a reference to the dispatch function from the Redux store.
   const dispatch = useDispatch();
+
+  //useSelector() to extract data from the Redux store state
   const state = useSelector(state=>state);
   const { id } = useParams();
 
