@@ -7,6 +7,16 @@ This is a online shopping store build using MERN SPA, built using GraphQL API wi
 * Users are able to create an account when providing user name, email and password.  
 * Logged in users will be able to add items to cart, delete item from cart and make payment for items in the cart.  
 
+### key parts of using React-Redux with React:  
+```
+* Call the useSelector hook to read data in React components  
+* Call the useDispatch hook to dispatch actions in React components  
+* Put <Provider store={store}> around your entire <App> component so that other components can talk to the store  
+```
+### Reference
+
+https://redux.js.org/tutorials/fundamentals/part-5-ui-react
+
 ## Deployed application
 
 https://tranquil-escarpment-13333.herokuapp.com/
